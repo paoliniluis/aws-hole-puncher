@@ -15,7 +15,7 @@ This is a dependency-less (only official python AWS CLI) Node.JS script that wil
 
 ## Usage
 
-aws-hole-puncher -group=group-id -services=service-name
+node aws-hole-puncher -group=group-id -services=service-name
 where:
 
 - group-id is the ID of the security group associated with the resource you work on
@@ -24,7 +24,7 @@ where:
 you can also add multiple ports in one shot like
 aws-hole-puncher -group=group-id -services=service-name1,service-name2,service-name3,service-name4
 
-e.g: aws-hole-puncher -group=sg-12345 -services=ssh,postgresql // will open ports tcp 22 and tcp 5432 on the security group sg-12345 for your current ip
+e.g: node aws-hole-puncher -group=sg-12345 -services=ssh,postgresql // will open ports tcp 22 and tcp 5432 on the security group sg-12345 for your current ip
 
 ## Things to consider
 

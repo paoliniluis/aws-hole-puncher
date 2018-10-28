@@ -1,6 +1,6 @@
 {
   "name": "aws-hole-puncher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dependency-less module for opening AWS security group (firewall) only to your machine while removing all other rules for maximum security",
   "main": "index.js",
   "scripts": {
