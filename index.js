@@ -105,6 +105,4 @@ async function main() {
     await addRule(vars.securityGroup, `'${JSON.stringify(vars.rules)}'`);
 }
 
-module.exports = {
-    main
-}
+main();
